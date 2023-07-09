@@ -1,3 +1,3 @@
-# Tic-Tac-Toe
-This file contains both the source code and the app code for a tic-tac-toe game. This game was made using react.js following a tutorial made by the team reponsible for react's development. The app code is located in the branch gh-pages and the source code is in the master branch. 
-The app can be viewed at: https://sam-schmitz.github.io/Tic-Tac-Toe/
+# sam-schmitz.github.io
+This repository is for the app and source code for my portfolio. The source code is located in the master branch and the app code is found in the gh-pages branch. 
+The app can be viewed at https://sam-schmitz.github.io
