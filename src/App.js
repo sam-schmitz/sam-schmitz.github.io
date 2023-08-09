@@ -64,16 +64,16 @@ function ProjectRow({ project, active, onActiveProjectChange }) {
             {project.name}
         </span>;
 
-    const c = "";
+    let c = "";
     if (active) {
-        const c = "table-active";
+        c += "table-active";
     }
 
     return (
             <tr class={c} onClick={(e) => onActiveProjectChange(project)}>
                 <td>{name}</td>
                 <td>{project.languages.join(', ')}</td>
-                <td>{project.libraries.join(', ')}</td>
+            <td>{project.libraries.join(', ')}</td>
             </tr>
         );
 }
