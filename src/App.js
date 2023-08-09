@@ -30,7 +30,7 @@ export const PROJECTS = [
     {
         name: "Portfolio Website",
         languages: ["javaScript", "HTML", "CSS"],
-        libraries: ["Node.js", "React.js"],
+        libraries: ["Node.js", "React.js", "Bootstrap 5"],
         finished: false,
         link: "https://github.com/sam-schmitz/sam-schmitz.github.io",
         description: "Uses a React app to display my portfolio. Has a searchable table with expandable rows."
@@ -70,18 +70,11 @@ function ProjectRow({ project, active, onActiveProjectChange }) {
     }
 
     return (
-        <tr class={c}>
-            <td>
-                <input
-                    type="checkbox"
-                    checked={active}
-                    onChange={(e) => onActiveProjectChange(project)}
-                />
-            </td>
-            <td>{name}</td>
-            <td>{project.languages.join(', ')}</td>
-            <td>{project.libraries.join(', ')}</td>
-        </tr>
+            <tr class={c} onClick={(e) => onActiveProjectChange(project)}>
+                <td>{name}</td>
+                <td>{project.languages.join(', ')}</td>
+                <td>{project.libraries.join(', ')}</td>
+            </tr>
         );
 }
 
@@ -111,7 +104,6 @@ function ProjectTable({ projects, filterText, finishedOnly, activeProject, setAc
         <table class="text-center table table-dark table-hover table-striped">
             <thead>
                 <tr>
-                    <th />
                     <th>Name</th>
                     <th>Languages</th>
                     <th>Libraries</th>
