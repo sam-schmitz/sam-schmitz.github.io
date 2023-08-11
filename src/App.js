@@ -34,6 +34,22 @@ export const PROJECTS = [
         finished: false,
         link: "https://github.com/sam-schmitz/sam-schmitz.github.io",
         description: "Uses a React app to display my portfolio. Has a searchable table with expandable rows."
+    },
+    {
+        name: "CS320",
+        languages: ["python"],
+        libraries: ["MatPlotLib"],
+        finished: true,
+        link: "https://github.com/sam-schmitz/CS320",
+        description: "A collection of the projects I completed in CS320. Major topics include sorting algorithms and graphs"
+    },
+    {
+        name: "CS260",
+        languages: ["python"],
+        libraries: ["None"],
+        finished: true,
+        link: "https://github.com/sam-schmitz/CS260",
+        description: "A 2d and 3d renderer of computer graphics. Has the ablility to model 3d shapes and complex meshes. Multiple dimmable lights can be used as well as a moveable camera. Uses multiprocessing for faster rendereing."
     }
 ];
 
