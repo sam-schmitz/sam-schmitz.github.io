@@ -43,7 +43,7 @@ function ProjectRow({ project, active, onActiveProjectChange }) {
         );
 }
 
-function ProjectTable({ projects, filterText, finishedOnly, activeProject, setActiveProject }) {
+function ProjectTable({ projects, filterText, finishedOnly, activeProject, setActiveProject, filterTag }) {
     const rows = [];
 
     projects.forEach((project) => {
@@ -53,6 +53,9 @@ function ProjectTable({ projects, filterText, finishedOnly, activeProject, setAc
             return;
         }
         if (finishedOnly && !project.finished) {
+            return;
+        }
+        if (!project.tags.includes(filterTag) && filterTag!="") {
             return;
         }
         rows.push(
@@ -99,9 +102,46 @@ function SearchBar({ filterText, finishedOnly, onFilterTextChange, onFinishedOnl
     );
 }
 
+function newTag(tagValue, filterTag, onFilterTagChange) {
+    if (filterTag == tagValue) {
+        onFilterTagChange("")
+    } else {
+        onFilterTagChange(tagValue)
+    }
+}
+
+function SearchTags({ filterTag, onFilterTagChange }) {
+    const tags = ["python", "school", "front-end"];
+    const display = []
+    tags.forEach((tag) => {
+        let c = "btn ";
+        if (filterTag === tag) {
+            c += "text-light bg-dark "
+        } else {
+            c += "text-dark bg-light "
+        }
+        display.push(
+            <button
+                type="button"
+                class={c}
+                value={tag}
+                onClick={(e) => newTag(e.target.value, filterTag, onFilterTagChange)}
+            >
+                {tag}
+            </button>
+        );
+    })
+    return (
+        <div>
+            {display}
+        </div>
+        );
+}
+
 function FilterableProjectTable({ projects, activeProject, setActiveProject }) {
     const [filterText, setFilterText] = useState('');
     const [finishedOnly, setFinishedOnly] = useState(false);
+    const [filterTag, setFilterTag] = useState('');
 
     return (
         <div>
@@ -110,12 +150,17 @@ function FilterableProjectTable({ projects, activeProject, setActiveProject }) {
                 finishedOnly={finishedOnly}
                 onFilterTextChange={setFilterText}
                 onFinishedOnlyChange={setFinishedOnly} />
+            <SearchTags
+                filterTag={filterTag}
+                onFilterTagChange={setFilterTag}
+            />
             <ProjectTable
                 projects={projects}
                 filterText={filterText}
                 finishedOnly={finishedOnly}
                 activeProject={activeProject}
                 setActiveProject={setActiveProject}
+                filterTag={filterTag}
             />
         </div>
         );
