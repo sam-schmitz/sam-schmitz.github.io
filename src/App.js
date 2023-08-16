@@ -84,7 +84,7 @@ function ProjectTable({ projects, filterText, finishedOnly, activeProject, setAc
 
 function SearchBar({ filterText, finishedOnly, onFilterTextChange, onFinishedOnlyChange }) {
     return (
-        <form>
+        <form class="my-1">
             <input
                 type="text"
                 value={filterText} placeholders="Search..."
@@ -111,10 +111,10 @@ function newTag(tagValue, filterTag, onFilterTagChange) {
 }
 
 function SearchTags({ filterTag, onFilterTagChange }) {
-    const tags = ["python", "school", "front-end"];
+    const tags = ["school", "front-end", "javaScript", "python"];
     const display = []
     tags.forEach((tag) => {
-        let c = "btn ";
+        let c = "btn me-1 ";
         if (filterTag === tag) {
             c += "text-light bg-dark "
         } else {
@@ -132,7 +132,7 @@ function SearchTags({ filterTag, onFilterTagChange }) {
         );
     })
     return (
-        <div>
+        <div class="my-1">
             {display}
         </div>
         );
@@ -169,7 +169,7 @@ function FilterableProjectTable({ projects, activeProject, setActiveProject }) {
 function Header() {
     return (
         <div class="text-light">
-            <h1>Portfolio</h1>
+            <h1>Portfolio: Sam Schmitz</h1>
             <hr></hr>
         </div>
     );
