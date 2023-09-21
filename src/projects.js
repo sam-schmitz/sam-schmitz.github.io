@@ -9,6 +9,10 @@ function ExpandedProject({ activeProject }) {
             </div>
         );
     } else {
+        let site = '';
+        if (activeProject.siteLink !== 'None') {
+            site = <p><b>Site Link: </b><a href={activeProject.siteLink}>{activeProject.siteLink}</a></p>
+        }
         return (
             <div>
                 <h5>{activeProject.name}</h5>
@@ -16,6 +20,7 @@ function ExpandedProject({ activeProject }) {
                 <p><b>Libraries: </b>{activeProject.libraries.join(', ')}</p>
                 <p><b>Decription: </b>{activeProject.description}</p>
                 <p><b>Github Link: </b><a href={activeProject.link}>{activeProject.link}</a></p>
+                {site}
             </div>
         );
     }

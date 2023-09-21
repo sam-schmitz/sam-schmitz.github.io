@@ -7,7 +7,8 @@
       "finished": false,
       "link": "https://github.com/sam-schmitz/sam-schmitz.github.io",
       "description": "Uses bs4 and selenium to web-scrape stock trades made by members of congress. These stocks are then placed into a SQL server for analysis",
-      "tags": [ "python", "SQL", "selenium" ]
+      "tags": [ "python", "SQL", "selenium" ],
+      "siteLink": "None"
     },
     {
       "name": "Portfolio Website",
@@ -16,7 +17,8 @@
       "finished": false,
       "link": "https://github.com/sam-schmitz/sam-schmitz.github.io",
       "description": "Uses a React app to display my portfolio. Has a searchable table with expandable rows.",
-      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end", "Bootstrap 5" ]
+      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end", "Bootstrap 5" ],
+      "siteLink": "https://sam-schmitz.github.io"
     },
     {
       "name": "CS320",
@@ -25,7 +27,8 @@
       "finished": true,
       "link": "https://github.com/sam-schmitz/CS320",
       "description": "A collection of the projects I completed in CS320. Major topics include sorting algorithms and graphs",
-      "tags": [ "python", "school" ]
+      "tags": [ "python", "school" ],
+      "siteLink": "None"
     },
     {
       "name": "CS260",
@@ -34,7 +37,18 @@
       "finished": true,
       "link": "https://github.com/sam-schmitz/CS260",
       "description": "A 2d and 3d renderer of computer graphics. Has the ablility to model 3d shapes and complex meshes. Multiple dimmable lights can be used as well as a moveable camera. Uses multiprocessing for faster rendereing.",
-      "tags": [ "python", "school" ]
+      "tags": [ "python", "school" ],
+      "siteLink": "None"
+    },
+    {
+      "name": "Cookie-Counter",
+      "languages": [ "javaScript", "HTML", "CSS" ],
+      "libraries": [ "Node.js", "React.js", "Bootstrap 5", "universal-cookie" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/cookie-counter",
+      "description": "A simple counter that uses cookies to save the running count. Uses CSS animations for detail.",
+      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end", "Bootstrap 5" ],
+      "siteLink": "https://sam-schmitz.github.io/cookie-counter"
     },
     {
       "name": "tic-tac-toe",
@@ -43,7 +57,8 @@
       "finished": true,
       "link": "https://github.com/sam-schmitz/Tic-Tac-Toe",
       "description": "A basic use of React that functions as a Tic-Tac-Toe game. Keeps a history of moves made and can move backwards along the history. ",
-      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end" ]
+      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end" ],
+      "siteLink": "https://sam-schmitz.github.io/Tic-Tac-Toe"
     },
     {
       "name": "produce",
@@ -52,7 +67,8 @@
       "finished": true,
       "link": "https://github.com/sam-schmitz/produce",
       "description": "Uses React to create a table of Produce avaliable. Produce can be filtered using a search bar",
-      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end" ]
+      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end" ],
+      "siteLink": "https://sam-schmitz.github.io/produce"
     }
   ]
 }
