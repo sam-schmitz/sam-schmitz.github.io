@@ -3,9 +3,9 @@
     {
       "name": "StockBot",
       "languages": [ "python", "SQL" ],
-      "libraries": [ "bs4", "selenium", "pyodbc" ],
-      "finished": false,
-      "link": "https://github.com/sam-schmitz/sam-schmitz.github.io",
+      "libraries": [ "bs4", "selenium", "pyodbc", "requests" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/Stock-Bot",
       "description": "Uses bs4 and selenium to web-scrape stock trades made by members of congress. These stocks are then placed into a SQL server for analysis",
       "tags": [ "python", "SQL", "selenium" ],
       "siteLink": "None"
