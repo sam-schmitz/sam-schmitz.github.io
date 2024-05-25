@@ -1,6 +1,16 @@
 {
   "projects": [
     {
+      "name": "Politician Stock Tracker",
+      "languages": [ "python", "SQL" ],
+      "libraries": [ "selenium", "SQLite3", "TKinter", "yfinance", "ttkbootstrap" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/Politician-Stock-Tracker",
+      "description": "Senior Design project done in collaberation with Gavin Roy that exapnds upon StockBot. Provides data analysis on trades made by 200+ members of congress. Uses Selenium to scrape thousands of stock trades from multiple different websites. A custom GUI made in tkinter is used to display the information. ",
+      "tags": [ "python", "SQL", "selenium", "school", "front-end" ],
+      "siteLink":  "None"
+    },
+    {
       "name": "StockBot",
       "languages": [ "python", "SQL" ],
       "libraries": [ "bs4", "selenium", "pyodbc", "requests" ],
@@ -14,7 +24,7 @@
       "name": "Portfolio Website",
       "languages": [ "javaScript", "HTML", "CSS" ],
       "libraries": [ "Node.js", "React.js", "Bootstrap 5" ],
-      "finished": false,
+      "finished": true,
       "link": "https://github.com/sam-schmitz/sam-schmitz.github.io",
       "description": "Uses a React app to display my portfolio. Has a searchable table with expandable rows.",
       "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end", "Bootstrap 5" ],
