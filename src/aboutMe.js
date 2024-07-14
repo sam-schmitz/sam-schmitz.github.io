@@ -1,7 +1,7 @@
 ﻿function AboutMeTab() {
     return (
         <div>
-            <h5><a href="https://github.com/sam-schmitz">Github</a>, <a href="https://www.linkedin.com/in/samuel-schmitz-16940b26b/">Linkdn</a>, <a href="https://leetcode.com/sschmitz9821/">Leetcode</a></h5>
+            <h5><a href="https://github.com/sam-schmitz">Github</a>, <a href="https://www.linkedin.com/in/samuel-schmitz-16940b26b/">LinkedIn</a>, <a href="https://leetcode.com/sschmitz9821/">Leetcode</a></h5>
             <h5></h5>
             <h5>Skills</h5>
             <ul>

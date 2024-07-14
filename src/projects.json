@@ -41,13 +41,53 @@
       "siteLink": "None"
     },
     {
-      "name": "CS260",
+      "name": "3D Renderer",
       "languages": [ "python" ],
-      "libraries": [ "None" ],
+      "libraries": [ "math" ],
       "finished": true,
-      "link": "https://github.com/sam-schmitz/CS260",
-      "description": "A 2d and 3d renderer of computer graphics. Has the ablility to model 3d shapes and complex meshes. Multiple dimmable lights can be used as well as a moveable camera. Uses multiprocessing for faster rendereing.",
+      "link": "https://github.com/sam-schmitz/3D-Renderer",
+      "description": "Renders a 3d scene and turns it into a ppm image. Images can be generated using ray tracing, meshs, and different textures. Multiple images can be turned into an animation.",
       "tags": [ "python", "school" ],
+      "siteLink": "None"
+    },
+    {
+      "name": "2D Renderer",
+      "languages": [ "python" ],
+      "libraries": [ "math" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/2D-Renderer",
+      "description": "Renders a 2d scene and turns it into a ppm image. ",
+      "tags": [ "python", "school" ],
+      "siteLink": "None"
+    },
+    {
+      "name": "Paystation",
+      "languages": [ "python" ],
+      "libraries": [ "tkinter", "unittest" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/Paystation",
+      "description": "The paystation is a mock parking meter. It allows the user to enter a given 'coin' and recive a certain amount of time based on the amount and city. The station then prints the user a recipt. The city can be selected before the transaction is made. The paystation also features a GUI.",
+      "tags": [ "python", "TKinter", "school" ],
+      "siteLink": "None"
+    },
+    {
+      "name": "Jelle Programming Language",
+      "languages": [ "python", "Racket" ],
+      "libraries": [],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/Jelle-Programming-Language",
+      "description": "Jelle is an interpereted language I created as part of CS230 (Programming Languages). Jelle is capable of basic artithmatic, for and while loops, assignemnts, inputs, and if statements.",
+      "tags": [ "python", "school" ],
+      "siteLink": "None"
+    },
+    {
+      "name": "Orange Store",
+      "languages": [ "HTML", "CSS", "javaScript", "php", "Ajax" ],
+      "libraries": [],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/Orange-Store",
+      "description": "A simple store serving as an intorduction to web development. The store features multiple products, Javascript functions, and a php order form.",
+      "tags": [ "javaScript", "HTML", "CSS", "web development", "php", "front-end" ],
       "siteLink": "None"
     },
     {
