@@ -61,6 +61,16 @@
       "siteLink": "None"
     },
     {
+      "name": "ViLT FastAPI App",
+      "languages": [ "python", "Docker" ],
+      "libraries": [ "pytorch", "FastAPI" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/ViLT-FastAPI/tree/main",
+      "description": "A REST API connected to a ViLT model that lives in a docker container. When the user gives the api a question and an image the api will return an answer to that question.",
+      "tags": [ "python", "back-end", "docker" ],
+      "siteLink": "None"
+    },
+    {
       "name": "Paystation",
       "languages": [ "python" ],
       "libraries": [ "tkinter", "unittest" ],
