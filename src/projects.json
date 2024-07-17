@@ -71,6 +71,16 @@
       "siteLink": "None"
     },
     {
+      "name": "Blockchain",
+      "languages": [ "javaScript" ],
+      "libraries": [ "Node.js", "crypto-js" ],
+      "finshed": true,
+      "link": "https://github.com/sam-schmitz/blockchain/tree/main",
+      "description": "A blockchain that is able to add blocks, hash, verify, and use proof of work.",
+      "tags": [ "javaScript", "blockchain" ],
+      "siteLink": "None"
+    },
+    {
       "name": "Paystation",
       "languages": [ "python" ],
       "libraries": [ "tkinter", "unittest" ],
