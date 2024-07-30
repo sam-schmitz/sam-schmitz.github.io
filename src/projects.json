@@ -8,7 +8,7 @@
       "link": "https://github.com/sam-schmitz/Politician-Stock-Tracker",
       "description": "Senior Design project done in collaberation with Gavin Roy that exapnds upon StockBot. Provides data analysis on trades made by 200+ members of congress. Uses Selenium to scrape thousands of stock trades from multiple different websites. A custom GUI made in tkinter is used to display the information. ",
       "tags": [ "python", "SQL", "selenium", "school", "front-end" ],
-      "siteLink":  "None"
+      "siteLink": "None"
     },
     {
       "name": "StockBot",
@@ -21,23 +21,13 @@
       "siteLink": "None"
     },
     {
-      "name": "Portfolio Website",
-      "languages": [ "javaScript", "HTML", "CSS" ],
-      "libraries": [ "Node.js", "React.js", "Bootstrap 5" ],
+      "name": "Blockchain",
+      "languages": [ "javaScript" ],
+      "libraries": [ "Node.js", "crypto-js", "crypto" ],
       "finished": true,
-      "link": "https://github.com/sam-schmitz/sam-schmitz.github.io",
-      "description": "Uses a React app to display my portfolio. Has a searchable table with expandable rows.",
-      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end", "Bootstrap 5" ],
-      "siteLink": "https://sam-schmitz.github.io"
-    },
-    {
-      "name": "CS320",
-      "languages": [ "python" ],
-      "libraries": [ "MatPlotLib" ],
-      "finished": true,
-      "link": "https://github.com/sam-schmitz/CS320",
-      "description": "A collection of the projects I completed in CS320. Major topics include sorting algorithms and graphs",
-      "tags": [ "python", "school" ],
+      "link": "https://github.com/sam-schmitz/blockchain/tree/main",
+      "description": "A blockchain system consisting of blockchain, wallet, and miner classes. The chain is capable of adding blocks, verifying transcations, searching the chain and generating signatures. ",
+      "tags": [ "javaScript", "blockchain" ],
       "siteLink": "None"
     },
     {
@@ -51,14 +41,14 @@
       "siteLink": "None"
     },
     {
-      "name": "2D Renderer",
-      "languages": [ "python" ],
-      "libraries": [ "math" ],
+      "name": "Portfolio Website",
+      "languages": [ "javaScript", "HTML", "CSS" ],
+      "libraries": [ "Node.js", "React.js", "Bootstrap 5" ],
       "finished": true,
-      "link": "https://github.com/sam-schmitz/2D-Renderer",
-      "description": "Renders a 2d scene and turns it into a ppm image. ",
-      "tags": [ "python", "school" ],
-      "siteLink": "None"
+      "link": "https://github.com/sam-schmitz/sam-schmitz.github.io",
+      "description": "Uses a React app to display my portfolio. Has a searchable table with expandable rows.",
+      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end", "Bootstrap 5" ],
+      "siteLink": "https://sam-schmitz.github.io"
     },
     {
       "name": "ViLT FastAPI App",
@@ -71,13 +61,23 @@
       "siteLink": "None"
     },
     {
-      "name": "Blockchain",
-      "languages": [ "javaScript" ],
-      "libraries": [ "Node.js", "crypto-js" ],
+      "name": "2D Renderer",
+      "languages": [ "python" ],
+      "libraries": [ "math" ],
       "finished": true,
-      "link": "https://github.com/sam-schmitz/blockchain/tree/main",
-      "description": "A blockchain that is able to add blocks, hash, verify, and use proof of work.",
-      "tags": [ "javaScript", "blockchain" ],
+      "link": "https://github.com/sam-schmitz/2D-Renderer",
+      "description": "Renders a 2d scene and turns it into a ppm image. ",
+      "tags": [ "python", "school" ],
+      "siteLink": "None"
+    },
+    {
+      "name": "CS320",
+      "languages": [ "python" ],
+      "libraries": [ "MatPlotLib" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/CS320",
+      "description": "A collection of the projects I completed in CS320. Major topics include sorting algorithms and graphs",
+      "tags": [ "python", "school" ],
       "siteLink": "None"
     },
     {
