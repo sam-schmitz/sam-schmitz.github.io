@@ -41,6 +41,26 @@
       "siteLink": "None"
     },
     {
+      "name": "Pokedex Website",
+      "languages": [ "JavaScript" ],
+      "libraries": [ "React.js", "React-Router-Dom", "Node.js" ],
+      "finished": false,
+      "link": "https://github.com/sam-schmitz/Pokedex",
+      "description": "A pokedex expressed as a website. ",
+      "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end" ],
+      "siteLink": "https://sam-schmitz.github.io/Pokedex/"
+    },
+    {
+      "name": "VacWorld",
+      "languages": [ "python" ],
+      "libraries": [ "math" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/vacworld",
+      "description": "Several AI Agents that traverse a room to perform the job of an automated vacum (roomba). ",
+      "tags": [ "python", "school", "AI" ],
+      "siteLink": "None"
+    },
+    {
       "name": "Portfolio Website",
       "languages": [ "javaScript", "HTML", "CSS" ],
       "libraries": [ "Node.js", "React.js", "Bootstrap 5" ],
