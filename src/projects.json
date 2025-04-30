@@ -56,8 +56,18 @@
       "libraries": [ "math" ],
       "finished": true,
       "link": "https://github.com/sam-schmitz/vacworld",
-      "description": "Several AI Agents that traverse a room to perform the job of an automated vacum (roomba). ",
+      "description": "Several AI Agents that traverse a room to perform the job of an automated vacum (roomba). 2 agents (Bobby & Bobby3) were created using convolutional nueral nets. Bobby3 was trained using reinforcement learning. The other agents use search based algorithms to navigate. ",
       "tags": [ "python", "school", "AI" ],
+      "siteLink": "None"
+    },
+    {
+      "name": "Space Invaders",
+      "languages": [ "C++" ],
+      "libraries": [ "GLFW", "thread", "glew" ],
+      "finished": true,
+      "link": "https://github.com/sam-schmitz/Space-Invaders",
+      "description": "A recreation of the classic space invaders game implemented using C++. Features include CPU based rendering, custom shaders, sprites, and animations, and a frame lock. ",
+      "tags": [ "C++", "Game Develpment" ],
       "siteLink": "None"
     },
     {
