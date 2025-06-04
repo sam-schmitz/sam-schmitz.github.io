@@ -26,7 +26,7 @@
       "libraries": [ "Node.js", "React.js", "React-Router-Dom", "Express", "Axios", "Mongoose", "Socket.io", "Cors", "BootStrap" ],
       "finsihed": false,
       "link": "https://github.com/sam-schmitz/Sports-Stats-App/",
-      "description": "I created a Full-Stack MERN app to collect and display the stats of different players and teams across many sports (currently only NBA 2024-2025 supported). There are 3 main components of the project: a react front-end, an express api, and a mongo database. The react app is hosted using GitHub Pages. The express api is hosted using render.com. And, the mongo db is hosted using Atlas.",
+      "description": "I created a Full-Stack MERN app to collect and display the stats of different players and teams across many sports. There are 3 main components of the project: a react front-end, an express api, and a mongo database. The react app is hosted using GitHub Pages. The express api is hosted using render.com. And, the mongo db is hosted using Atlas. Currently, only the players, teams, and games of the 2024-2025 NBA season are being tracked. ",
       "tags": [ "javaScript", "HTML", "CSS", "Node.js", "React.js", "web development", "front-end", "back-end", "full-stack" ],
       "siteLink": "https://sam-schmitz.github.io/Sports-Stats-App"
     }
